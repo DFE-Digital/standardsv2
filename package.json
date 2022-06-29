@@ -1,7 +1,7 @@
 {
   "name": "govuk-prototype-kit",
   "description": "Rapidly create HTML prototypes of GOV.UK services",
-  "version": "12.0.1",
+  "version": "16.15.1",
   "private": true,
   "engines": {
     "node": ">=12.0.0 <17.0.0"
@@ -39,6 +39,7 @@
     "node-sass": "^6.0.1",
     "notifications-node-client": "^5.1.0",
     "nunjucks": "^3.2.1",
+    "package.json": "^2.0.1",
     "portscanner": "^2.1.1",
     "require-dir": "^1.0.0",
     "sync-request": "^6.0.0",
@@ -53,5 +54,20 @@
   },
   "jest": {
     "testRunner": "jest-jasmine2"
-  }
+  },
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DFE-Digital/standardsv2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DFE-Digital/standardsv2/issues"
+  },
+  "homepage": "https://github.com/DFE-Digital/standardsv2#readme"
 }
